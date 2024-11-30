@@ -1,0 +1,123 @@
+<mxfile host="Electron" modified="2024-11-30T17:50:06.574Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.1 Chrome/112.0.5615.87 Electron/24.1.2 Safari/537.36" etag="hVhn1DWe0dSS15hf0Lgh" version="21.2.1" type="device" pages="2">
+  <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
+    <mxGraphModel dx="1290" dy="621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="77e6c97f196da883-1" value="Vehicle Search and Reservation" style="swimlane;html=1;childLayout=stackLayout;startSize=20;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="1" vertex="1">
+          <mxGeometry x="130" y="40" width="490" height="720" as="geometry" />
+        </mxCell>
+        <mxCell id="77e6c97f196da883-2" value="Customer" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
+          <mxGeometry y="20" width="250" height="700" as="geometry" />
+        </mxCell>
+        <mxCell id="NyX2kBnngBt6QNNGAK6W-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="77e6c97f196da883-2" source="NyX2kBnngBt6QNNGAK6W-1" target="NyX2kBnngBt6QNNGAK6W-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NyX2kBnngBt6QNNGAK6W-1" value="" style="ellipse;fillColor=strokeColor;html=1;" vertex="1" parent="77e6c97f196da883-2">
+          <mxGeometry x="110" y="30" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NyX2kBnngBt6QNNGAK6W-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="77e6c97f196da883-2" source="NyX2kBnngBt6QNNGAK6W-2" target="NyX2kBnngBt6QNNGAK6W-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NyX2kBnngBt6QNNGAK6W-2" value="Customer logs in" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="77e6c97f196da883-2">
+          <mxGeometry x="55" y="80" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NyX2kBnngBt6QNNGAK6W-3" value="Customer enters search criteria" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="77e6c97f196da883-2">
+          <mxGeometry x="52.5" y="140" width="145" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NyX2kBnngBt6QNNGAK6W-13" value="Customer selects a vehicle" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="77e6c97f196da883-2">
+          <mxGeometry x="57.5" y="430" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NyX2kBnngBt6QNNGAK6W-18" value="Customer confirms reservation" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="77e6c97f196da883-2">
+          <mxGeometry x="57.5" y="525" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="77e6c97f196da883-3" value="System" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
+          <mxGeometry x="250" y="20" width="240" height="700" as="geometry" />
+        </mxCell>
+        <mxCell id="NyX2kBnngBt6QNNGAK6W-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="77e6c97f196da883-3" source="NyX2kBnngBt6QNNGAK6W-9" target="NyX2kBnngBt6QNNGAK6W-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NyX2kBnngBt6QNNGAK6W-9" value="System filters vehicles based on criteria" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="77e6c97f196da883-3">
+          <mxGeometry x="60" y="140" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NyX2kBnngBt6QNNGAK6W-11" value="System displays filtered vehicles" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="77e6c97f196da883-3">
+          <mxGeometry x="60" y="380" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NyX2kBnngBt6QNNGAK6W-15" value="System provides rental quote" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="77e6c97f196da883-3">
+          <mxGeometry x="60" y="460" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NyX2kBnngBt6QNNGAK6W-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="77e6c97f196da883-3" source="NyX2kBnngBt6QNNGAK6W-19" target="NyX2kBnngBt6QNNGAK6W-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NyX2kBnngBt6QNNGAK6W-19" value="System updates vehicle status to “Reserved”" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="77e6c97f196da883-3">
+          <mxGeometry x="60" y="530" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NyX2kBnngBt6QNNGAK6W-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="77e6c97f196da883-3" source="NyX2kBnngBt6QNNGAK6W-20" target="NyX2kBnngBt6QNNGAK6W-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NyX2kBnngBt6QNNGAK6W-20" value="System sends a confirmation email" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="77e6c97f196da883-3">
+          <mxGeometry x="60" y="600" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NyX2kBnngBt6QNNGAK6W-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="77e6c97f196da883-3" source="NyX2kBnngBt6QNNGAK6W-21" target="NyX2kBnngBt6QNNGAK6W-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="230" y="230" />
+              <mxPoint x="230" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NyX2kBnngBt6QNNGAK6W-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="77e6c97f196da883-3" source="NyX2kBnngBt6QNNGAK6W-21" target="NyX2kBnngBt6QNNGAK6W-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NyX2kBnngBt6QNNGAK6W-21" value="Vehicles available?" style="rhombus;" vertex="1" parent="77e6c97f196da883-3">
+          <mxGeometry x="65" y="200" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NyX2kBnngBt6QNNGAK6W-25" value="Display &quot;There is no vechicles with this filters&quot;" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="77e6c97f196da883-3">
+          <mxGeometry x="60" y="300" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NyX2kBnngBt6QNNGAK6W-24" value="YES" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="77e6c97f196da883-3">
+          <mxGeometry x="190" y="350" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NyX2kBnngBt6QNNGAK6W-38" value="" style="ellipse;html=1;shape=endState;fillColor=strokeColor;" vertex="1" parent="77e6c97f196da883-3">
+          <mxGeometry x="115" y="660" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NyX2kBnngBt6QNNGAK6W-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="77e6c97f196da883-1" source="NyX2kBnngBt6QNNGAK6W-3" target="NyX2kBnngBt6QNNGAK6W-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NyX2kBnngBt6QNNGAK6W-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="77e6c97f196da883-1" source="NyX2kBnngBt6QNNGAK6W-11" target="NyX2kBnngBt6QNNGAK6W-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NyX2kBnngBt6QNNGAK6W-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="77e6c97f196da883-1" source="NyX2kBnngBt6QNNGAK6W-25" target="NyX2kBnngBt6QNNGAK6W-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NyX2kBnngBt6QNNGAK6W-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="77e6c97f196da883-1" source="NyX2kBnngBt6QNNGAK6W-13" target="NyX2kBnngBt6QNNGAK6W-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NyX2kBnngBt6QNNGAK6W-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="77e6c97f196da883-1" source="NyX2kBnngBt6QNNGAK6W-15" target="NyX2kBnngBt6QNNGAK6W-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NyX2kBnngBt6QNNGAK6W-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="77e6c97f196da883-1" source="NyX2kBnngBt6QNNGAK6W-18" target="NyX2kBnngBt6QNNGAK6W-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="565" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="240" y="570" />
+              <mxPoint x="240" y="570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NyX2kBnngBt6QNNGAK6W-29" value="NO" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="470" y="328" width="40" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="bf5v4l7piz8TJvCNDllK" name="Page-2">
+    <mxGraphModel dx="1290" dy="621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
